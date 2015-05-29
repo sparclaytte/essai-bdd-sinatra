@@ -1,0 +1,9 @@
+<% @donneesbdd.each do |bdd| %> <!-- ici le mon "bdd" peut etre n importe quoi c est juste memotechnique, et each est une boucle qui tourne jusqua avoir recuperer tout les donnees -->
+<div class="red"><%= bdd.nom %></div>  <!--ici on rajoute le "bdd" cité plus haut et dobnc on appele chaque colone avec "bdd.prenom" etc -->
+<%= bdd.prenom %>
+<%= bdd.email %>
+<%= bdd.commentaire %></br>
+<% end %>
+
+<a href="/formulaire">allez au formaulaire</a>
+

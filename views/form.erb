@@ -1,0 +1,17 @@
+<p>Vous pouvez utiliser le formulaire ci-dessous pour nous contacter :</p>
+<form action="/formulaire" method="post"> <!--bien penser ici a mettre la bonne route dans form action -->
+
+  <label>Votre nom :</label>
+  <input type="text" name="formulaire[nom]" >
+
+  <label>Votre prenom :</label>
+  <input type="text" name="formulaire[prenom]" >
+
+  <label>Votre adresse mail :</label>
+  <input type="text" name="formulaire[email]">
+
+  <label>Votre message :</label>
+  <textarea name="formulaire[commentaire]"></textarea>
+
+  <input type="submit" value="Envoyer">
+</form>
